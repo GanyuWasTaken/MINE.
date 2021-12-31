@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>My Favorite Games</title>
+    <style>
+
+    body{
+background-color:#B3CEE5;
+    }
+.container{
+position: relative;
+width: 250px;
+height: 250px;
+margin: 100px;
+}
+.image{
+  display: block;
+  width 100%;
+  height: 100%;
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease ;
+  background-color: #7D7098;
+}
+.container:hover .overlay{
+  opacity: 1
+}
+
+.text{
+  color: #B3CEE3;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform:  translate (-50%, -50%)
+  text-align: center;
+
+}
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  h1{
+  color: #429E9D;
+  font-family: monospace, Courier New
+  }
+
+  p{
+    color: #F7D6D0;
+  }
+
+    </style>
+
+  </head>
+
+  <h1> My Favorite Games </h1>
+  <body>
+    <table>
+    <tr>
+
+
+<td> <div class= "container">
+ <img src="afk_arena_game_icon.jpg" alt="afk arena (lilith games)"class="image">
+<div class = "overlay">
+  <div class = "text"> AFK Arena (By Lilith Games)
+  </div>
+</div>
+</div>
+</td>
+
+<td> <div class= "container">
+
+<img src="minecraft_game_icon.png" alt="minecraft (mojang)"class="image">
+
+<div class = "overlay">
+<div class= "text"> Minecraft (By Mojang)
+<p> Minecraft is a sandbox game. <br>
+  It has many mobs to fight and biomes to explore, featuring a blocky art style.
+</p>
+</div>
+</div>
+</div>
+
+</td>
+</tr>
+
+<tr>
+<td>
+  <div class="container">
+<img src="genshin_impact_game_icon.png" alt="genshin impact (mihoyo)"class="image">
+
+  <div class = "overlay">
+  <div class= "text"> Genshin Impact (By MiHoYo)
+<p>Genshin Impact is an open-world ARPG. <br>
+  It features a gacha system to get characters and an 3D anime art style. <br> </p>
+  </div>
+</div>
+</div>
+
+</td>
+
+<td>
+<div class= "container">
+   <img src="cookie_run_game_icon.jpg" alt="cookie run: kingdom(devsisters)" class= "image">
+
+ <div class ="overlay">
+   <div class ="text"> Cookie Run: Kingdom (By DevSisters)
+     <p>Cookie Run Kingdom is an RPG with a building feature. <br>
+     It features a gacha system to get characters and 12+ world exploration episodes.</p>
+   </div>
+ </div>
+</div>
+
+
+
+</td>
+   </tr>
+
+  </table>
+  </body>
+</html>
